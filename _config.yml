@@ -50,7 +50,7 @@ exclude:
 logo: "/assets/images/logo_purple.png"
 
 # Set a path/url to a favicon that will be displayed by the browser
-favicon_ico: "/assets/images/apcs-logo.png"
+favicon_ico: "/assets/images/favicon.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
