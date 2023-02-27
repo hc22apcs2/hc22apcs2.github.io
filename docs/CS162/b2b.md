@@ -1,12 +1,10 @@
 ---
 layout: post
-title: CS162 - 2A
+title: CS162 - 2B
 parent: Introduction to Computer Science II
 ---
 
 {% include toc.md %}
-
-# CS162 - 2b
 
 ## What will happen when you delete a pointer 2 times in a row?
 
