@@ -18,7 +18,7 @@ void insertAtBeginning(Node* pHead, int x);
 {% endhighlight %}
 {% endcapture %}
 {% include fix_linenos.html code=code %}
-5. Insert a new Node ``x`` after the $1^{st}$ Node ``k`` (By saying Node ``x``, it means the Node with the value of x).  
+5. Insert a new Node ``x`` after the \(1^{st}\) Node ``k`` (By saying Node ``x``, it means the Node with the value of x).  
 *Notes:* if there is no ``k``, don't insert.
 {% capture code %}
 {% highlight cpp linenos %}
