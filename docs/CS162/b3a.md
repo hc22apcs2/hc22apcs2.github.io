@@ -1,3 +1,4 @@
+---
 layout: post
 title: CS162 - 3A
 parent: Introduction to Computer Science II
