@@ -39,7 +39,7 @@ $$
 \lvert P_{i-1}P_i\rvert=\sqrt{(x_i-x_{i-1})^2+(y_i-y_{i-1})^2}
 $$
 
-Apply te Mean Value Theorem: $f(x_i)-f(x_{i-1})=f'(x_i^*)(x_i-x_{i-1})$
+Apply the Mean Value Theorem: $\displaystyle f'(x_i^*)=\frac{f(x_i)-f(x_{i-1})}{x_i-x_{i-1}}$
 
 $$\begin{align*}
 \lvert P_{i-1}P_i\rvert&=\sqrt{(x_i-x_{i-1})^2+\left[f'(x_i^*)(x_i-x_{i-1})\right]^2} \\
@@ -58,6 +58,25 @@ We can use the definition of definite integral, therefore:
 $$
 L=\int_a^b \sqrt{1+\left[f'(x)\right]^2} \ dx
 $$
+
+**_Example:_**
+
+Find the exact length of the curve $(C): y=\dfrac{x^3}{3}+\dfrac{1}{4x}$, $1 \leq x \leq 2$
+
+_Solution:_
+
+We have: $\dfrac{dy}{dx}=x^2-\dfrac{1}{4x^2}$
+
+Call $L$ be the desired length
+
+$$\begin{align*}
+L&=\int_1^2 \sqrt{1+\left(x^2-\frac{1}{4x^2}\right)^2} \ dx 
+= \int_1^2 \sqrt{\frac{1}{2}+x^4+\frac{1}{16x^4}} \ dx \\
+&= \int_1^2 \sqrt{\left(x^2+\frac{1}{4x^2}\right)^2} \ dx
+=\int_1^2 \left(x^2+\frac{1}{4x^2}\right) \ dx \\
+&=\left[\frac{x^3}{3}-\frac{1}{4x}\right]_1^2=\frac{59}{24}
+\end{align*}$$
+
 
 ## III. Parametric Equations
 
