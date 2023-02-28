@@ -19,7 +19,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://hc22apcs2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: hc22apcs2/hc22apcs2.github.io # for github-metadata
 
-permalink: pretty
+# permalink: pretty
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
