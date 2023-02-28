@@ -192,7 +192,8 @@ figure.highlight {
 
   pre {
     margin: 0;
-    line-height: 2;
+    line-height: 1.5; // default 2
+    color: $grey-dk-000;
   }
 }
 
