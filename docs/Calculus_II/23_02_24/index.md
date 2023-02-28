@@ -6,9 +6,9 @@ parent: Calculus II
 
 {% include toc.md %}
 
-### I. Volume:
+## I. Volume:
 
-#### 1. Definition of volume:
+### 1. Definition of volume:
 
 Let $S$ be a solid that lies between $x=a$ and $x=b$. If the cross-sectional area of $S$ in the plane $P_x$, through $x$ and perpendcular to the $x$-axis, is $A(x)$, where $A$ is a continous function, then the **volume** of $S$ is:
 
@@ -16,7 +16,7 @@ $$V=\displaystyle\lim_{n \to \infty} \sum_{i=1}^n A(x_i^*) \Delta x = \int_a^b A
 
 ![](https://i.ibb.co/rxxyT3P/fig1.png)
 
-#### 2. Method of cylindrical shell:
+### 2. Method of cylindrical shell:
 
 The volume, obtained by rotating about the $y$-axis the region under the curve $y=f(x)$ from $a$ to $b$, is:
 
@@ -25,7 +25,7 @@ $$V=\int_a^b 2\pi xf(x) dx \  \  \  \ \text{where $0 \leq a < b$}$$
 ![](https://i.ibb.co/ftb9ZM2/fig2.png)
 ![](https://i.ibb.co/8YszXbt/fig3.png)
 
-### II. Arc length
+## II. Arc length
 
 ![](https://i.ibb.co/1z5fmFw/fig4.png)
 
@@ -59,9 +59,9 @@ $$
 L=\int_a^b \sqrt{1+\left[f'(x)\right]^2} \ dx
 $$
 
-### III. Parametric Equations
+## III. Parametric Equations
 
-#### 1. Curves
+### 1. Curves
 
 Suppose that $x$ and $y$ are both given as functions of a third variable $t$ (called a **parameter**) by the equations
 
@@ -75,9 +75,9 @@ $$x=t^2-2t \ \ \ \ \ \ \ \ y=t+1$$
 
 ![](fig5.png)
 
-#### 2. Calculus with parametric curves
+### 2. Calculus with parametric curves
 
-##### a. Tangents
+#### a. Tangents
 
 Suppose $f$ and $g$ are differentiable functions and we want to fing the tangent line at a point on a curve where $y$ is also a differentiable function of $x$. Then the Chain Rule gives
 
@@ -110,7 +110,7 @@ With $t=-1$, the according point is $(1,2)$
 
 $\therefore$ The points $(1,2)$ and $(1,-2)$ on $C$ where the tangent is horizontal.
 
-##### b. Areas
+#### b. Areas
 
 We can caluclate the area formula by using the Substitution Rule for Definite Integrals as follows:
 
@@ -136,7 +136,7 @@ A&=\int_0^{2\pi} y \ dx
 &= r^2 \left[ \frac{3}{2}\theta - 2\sin\theta + \frac{1}{4} \sin 2\theta\right]_0^{2\pi} = 3\pi r^2
 \end{align*}$$
 
-##### c. Arc length
+#### c. Arc length
 
 If a curve $C$ is described by the parametric equations $x=f(t), y=g(t), \alpha \leq t \leq \beta$, where $f'$ and $g'$ are continuous on $[\alpha,\beta]$ and $C$ is traversed exactly once as $t$ increases from $\alpha$ to $\beta$, then length of $C$ is
 
