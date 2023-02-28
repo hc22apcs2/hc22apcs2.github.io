@@ -15,14 +15,14 @@ permalink: /
 Đây là trang web được tạo ra từ chi Đoàn 22TT2/22APCS2 nhằm lưu trữ những nội dung mà thầy cô đã dạy trong tiết học một cách khoa học và đơn giản cho người đọc.
 
 **Admins:**
-- Nguyễn Hoàng Phúc ([nhphucqt](https://github.com/nhphucqt))
+- Nguyễn Hoàng Phúc 77 ([nhphucqt](https://github.com/nhphucqt))
 - Vòng Vĩnh Toàn ([vongvinhtoan](https://github.com/vongvinhtoan))
 
 **Main Dev:**
-- Nguyễn Hoàng Phúc ([nhphucqt](https://github.com/nhphucqt))
+- Nguyễn Hoàng Phúc 77 ([nhphucqt](https://github.com/nhphucqt))
 
 **Contributor:**
-- Nguyễn Hoàng Phúc ([slo248](https://github.com/slo248))
+- Nguyễn Hoàng Phúc 76 ([slo248](https://github.com/slo248))
 
 **Archievers:**
 - Vòng Vĩnh Toàn (CS162)
