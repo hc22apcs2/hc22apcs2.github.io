@@ -111,7 +111,7 @@ $$\frac{d^2y}{dx^2}=\frac{d}{dx}\left(\frac{dy}{dx}\right)=\cfrac{\cfrac{d}{dt}\
 
 **_Example:_**
 
-A curve $C$ is defined by parametric equations $\displaystyle \begin{cases}x=t^2\\y=t^3-3t\end{cases}$
+A curve $C$ is defined by parametric equations $\displaystyle \begin{cases}x=t^2 \\ y=t^3-3t\end{cases}$
 
 Find the points on $C$ where the tangent is horizontal.
 
