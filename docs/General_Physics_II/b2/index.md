@@ -6,7 +6,10 @@ parent: General Physics II
 
 ---
 
+{% include toc.md %}
+
 # Electric Field
+{: .no_toc}
 
 ## Introduction
 * The ***electric force*** is a ***field force.*** 
