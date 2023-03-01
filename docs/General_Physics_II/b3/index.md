@@ -26,7 +26,7 @@ $$
 * **$\phi_E > 0 \to out > into$**
 
 ### Example
-<img src = https://i.imgur.com/Oz8oL72.png width = 500 height = 300> <br>
+<img src = "Oz8oL72.png" width = 500 height = 300> <br>
 
 **$\phi~total~ = 0 \to$ because electric field lines go in will go out.**
 
@@ -37,12 +37,12 @@ $$
 \phi_E = \oint_S \vec E.d\vec A = \frac{q_{in}}{\epsilon_0}
 $$
 
-<img src = https://i.imgur.com/Sx6KkMg.png width = 350 height = 300><br>
+<img src = "Sx6KkMg.png" width = 350 height = 300><br>
 
 **The electric flux of these non symetric surfaces = the electric flux of sphere.**
 
 ## Field Due to a Spherically Symmetric Charge Distribution
-![](https://i.imgur.com/5H5Z0Fb.png)
+![](5H5Z0Fb.png)
 
 ## New words
 * **hollow:** rỗng
