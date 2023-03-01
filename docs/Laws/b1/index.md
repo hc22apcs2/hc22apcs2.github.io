@@ -1,25 +1,16 @@
 ---
 layout: post
-title: Pháp luật đại cương (1)
+title: Những vấn đề chung về nhà nước
 parent: Introduction to Laws
 ---
 
 {% include toc.md %}
 
-# Những vấn đề chung về nhà nước
-
-Nội dung:
-1. Nguồn gốc của Nhà nước
-2. Bản chất của Nhà nước
-3. Thuộc tính của Nhà nước
-4. Chức năng của Nhà nước
-5. Kiểu nhà nước và hình thức nhà nước
-6. Bộ máy Nhà nước
-
 ## 1. NGUỒN GỐC CỦA NHÀ NƯỚC
 
 ### 1.1. Các học thuyết tiêu biểu về nguồn gốc của nhà nước
 #### 1.1.1. Những quan điểm phi Mác – xit về nguồn gốc Nhà nước
+{: .no_toc}
 
 - **Thuyết thần quyền**: nhà nước do thượng đế sáng tạo. 
 - **Thuyết gia trưởng**: Nhà nước kết quả của sự phát triển gia đình.
@@ -27,6 +18,9 @@ Nội dung:
 - **Thuyết khế ước xã hội**: Nhà nước ra đời từ một hợp đồng.
 
 #### 1.1.2. Quan điểm của CN Mác - Lênin về nguồn gốc Nhà nước
+{: .no_toc}
+
+
 “Nguồn gốc của gia đình, của chế độ tư hữu và của nhà nước” (Friedrich Engels)
 
 - NN: hiện tượng có tính lịch sử, tính quy luật khách quan.
@@ -38,11 +32,11 @@ Nội dung:
 ![](https://i.imgur.com/9JjX1Ac.png)
 
 #### 1.2.1. Chế độ công xã nguyên thủy và tổ chứ thị tộc - bộ lạc
-
+{: .no_toc}
 ![](https://i.imgur.com/xdoRTzP.png)
 
 #### 1.2.2 Sự phân hóa giai cấp trong xã hội qua ba lần phân công lao động
-
+{: .no_toc}
 ![](https://i.imgur.com/mPLM3Jy.png)
 
 **=> Nhà nước là một bộ máy quyền lực chính trị đặc biệt do giai cấp thống trị lập ra nhằm bảo vệ lợi ích của giai cấp thống trị và thực hiện quản lý mọi mặt đời sống xã hội theo ý chí của giai cấp thống trị.**
