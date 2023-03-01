@@ -1,10 +1,15 @@
 ---
 layout: post
-title: Những vấn đề chung về nhà nước
+title: Pháp luật đại cương - 1
 parent: Introduction to Laws
 ---
 
 {% include toc.md %}
+
+---
+
+# NHỮNG VẤN ĐỀ CHUNG VỀ NHÀ NƯỚC
+{: .no_toc}
 
 ## 1. NGUỒN GỐC CỦA NHÀ NƯỚC
 
