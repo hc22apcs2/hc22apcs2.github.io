@@ -21,7 +21,7 @@ permalink: /
 **Main Dev:**
 - Nguyễn Hoàng Phúc 77 ([nhphucqt](https://github.com/nhphucqt))
 
-**Contributor:**
+**Contributors:**
 - Nguyễn Hoàng Phúc 76 ([slo248](https://github.com/slo248))
 - Lương Nguyên Khoa ([CanhCut2806](https://github.com/CanhCut2806))
 
