@@ -30,6 +30,23 @@ The **graph of a polar equation** $r=f(\theta)$, consists of all points $P$ that
 
 **_Example:_** 
 
-Sketch the curve with polar equation $r=2 \cos\theta$
+* Sketch the curve with polar equation $r=2 \cos\theta$
 
 ![](fig4.png)
+
+We can derive polar equation to $x,y$ equation as follows:
+
+$$\begin{align*}
+&r=2\cos\theta \\
+\Leftrightarrow \ &r^2 = 2r\cos\theta \\
+\Leftrightarrow \ &x^2+y^2 = 2x \\
+\Leftrightarrow \ &(x-1)^2+y^2=1
+\end{align*}$$
+
+We can see that the above equation describing the circle exactly as in the graph.
+
+* Sketch the curve $r=1+\sin\theta$
+
+![](fig5.png)
+
+_Last update: 15:14 - 05/03/2024_
