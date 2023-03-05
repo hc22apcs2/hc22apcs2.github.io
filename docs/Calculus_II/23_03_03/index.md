@@ -6,7 +6,7 @@ parent: Calculus II
 
 {% include toc.md %}
 
-## Polar Coordinate
+## I. Introduction to polar coordinate
 
 We choose a point in the plane that is called the **pole** (or origin) and is labeled $O$. Then we draw a ray (half-line) starting at $O$ called the **polar axis**. This axis is usually drawn horizontally to the right and corresponds to the positive $x$-axis in Cartesian coordinates.
 
@@ -14,3 +14,22 @@ If is any other point in the plane, let $r$ be the distance from $O$ to $P$ and 
 
 ![](fig1.png)
 ![](fig2.png)
+
+The connection between polar and Cartesian coordinate can be seen from below:
+
+![](fig3.png)
+
+$$
+x=r\cos\theta \ \ \ \ \ \ y=r\sin\theta \\
+r^2=x^2+y^2 \ \ \ \ \ \ \theta=\arctan \dfrac{y}{x}
+$$
+
+## II. Polar curves
+
+The **graph of a polar equation** $r=f(\theta)$, consists of all points $P$ that have at least one polar representation $(r,\theta)$ whose coordinates satisfy the equation.
+
+**_Example:_** 
+
+Sketch the curve with polar equation $r=2 \cos\theta$
+
+![](fig4.png)
