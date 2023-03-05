@@ -25,7 +25,7 @@ permalink: /
 - Nguyễn Hoàng Phúc 76 ([slo248](https://github.com/slo248))
 - Lương Nguyên Khoa ([CanhCut2806](https://github.com/CanhCut2806))
 
-**Archievers:**
+**Archivers:**
 - Vòng Vĩnh Toàn (CS162)
 - Nguyễn Hoàng Phúc 76 (MTH252)
 - Lương Nguyên Khoa (PH212)
