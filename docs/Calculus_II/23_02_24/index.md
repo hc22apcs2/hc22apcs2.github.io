@@ -103,7 +103,10 @@ Suppose $f$ and $g$ are differentiable functions and we want to fing the tangent
 $$ \frac{dy}{dt}=\frac{dy}{dx} \cdot \frac{dx}{dt}$$
 
 If $dx/dt \neq 0$, then we can solve for $dy/dx$:
-$$\frac{dy}{dx}=\cfrac{\cfrac{dy}{dt}}{\cfrac{dx}{dt}} \ \ \ \ \ \ \ \ \text{if} \ \ \frac{dx}{dt} \neq 0$$
+
+$$
+\frac{dy}{dx}=\cfrac{\cfrac{dy}{dt}}{\cfrac{dx}{dt}} \ \ \ \ \ \ \ \ \text{if} \ \ \frac{dx}{dt} \neq 0
+$$
 
 Now we consider how to calculate $d^2y/dx^2$. This can be found by replacing $y$ by $dy/dx$ in equation above
 
@@ -157,7 +160,7 @@ A&=\int_0^{2\pi} y \ dx \\
 
 #### c. Arc length
 
-If a curve $C$ is described by the parametric equations $x=f(t), y=g(t), \alpha \leq t \leq \beta$, where $f'$ and $g'$ are continuous on $[\alpha,\beta]$ and $C$ is traversed exactly once as $t$ increases from $\alpha$ to $\beta$, then length of $C$ is
+If a curve $C$ is described by the parametric equations $x=f(t), y=g(t), \alpha \leq t \leq \beta$, where $f'$ and $g'$ are continuous on $[\alpha,\beta]$ and $C$ is traversed **exactly once** as $t$ increases from $\alpha$ to $\beta$, then length of $C$ is
 
 $$L = \int_\alpha^\beta \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} \ dt$$
 
@@ -179,9 +182,4 @@ L&=\int_0^{2\pi} \sqrt{\left(\frac{dx}{d\theta}\right)^2 + \left(\frac{dy}{d\the
 &=2r \left[-2\cos\frac{\theta}{2}\right]_0^{2\pi} = 8r
 \end{align*}$$
 
-
-
-
-
-
-
+_Last update: 19:57 - 06/03/2023_
