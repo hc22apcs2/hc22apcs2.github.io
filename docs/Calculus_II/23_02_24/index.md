@@ -43,8 +43,8 @@ Apply the Mean Value Theorem: $\displaystyle f'(x_i^*)=\frac{f(x_i)-f(x_{i-1})}{
 
 $$\begin{align*}
 \lvert P_{i-1}P_i\rvert&=\sqrt{(x_i-x_{i-1})^2+\left[f'(x_i^*)(x_i-x_{i-1})\right]^2} \\
-&=\sqrt{1+\left[f'(x_i^*)\right]^2} \ (x_i-x_{i-1}) 
-= \sqrt{1+\left[f'(x_i^*)\right]^2} \ \Delta x
+&=\sqrt{1+\left[f'(x_i^*)\right]^2} \ (x_i-x_{i-1}) \\
+&= \sqrt{1+\left[f'(x_i^*)\right]^2} \ \Delta x
 \end{align*}$$
 
 So
@@ -70,11 +70,11 @@ We have: $\dfrac{dy}{dx}=x^2-\dfrac{1}{4x^2}$
 Call $L$ be the desired length
 
 $$\begin{align*}
-L&=\int_1^2 \sqrt{1+\left(x^2-\frac{1}{4x^2}\right)^2} \ dx 
-= \int_1^2 \sqrt{\frac{1}{2}+x^4+\frac{1}{16x^4}} \ dx \\
-&= \int_1^2 \sqrt{\left(x^2+\frac{1}{4x^2}\right)^2} \ dx
-=\int_1^2 \left(x^2+\frac{1}{4x^2}\right) \ dx \\
-&=\left[\frac{x^3}{3}-\frac{1}{4x}\right]_1^2=\frac{59}{24}
+L&=\int_1^2 \sqrt{1+\left(x^2-\frac{1}{4x^2}\right)^2} \ dx \\
+&= \int_1^2 \sqrt{\frac{1}{2}+x^4+\frac{1}{16x^4}} \ dx \\
+&= \int_1^2 \sqrt{\left(x^2+\frac{1}{4x^2}\right)^2} \ dx \\
+&=\int_1^2 \left(x^2+\frac{1}{4x^2}\right) \ dx \\
+&=\left[\frac{x^3}{3}-\frac{1}{4x}\right]_1^2 =\frac{59}{24}
 \end{align*}$$
 
 
@@ -146,10 +146,10 @@ $$x=r(\theta - \sin \theta) \ \ \ \ \ \ y=r(1-\cos \theta)$$
 _Solution:_
 
 $$\begin{align*}
-A&=\int_0^{2\pi} y \ dx 
-= \int_0^{2\pi} r(1-\cos \theta)r(1-\cos \theta) \ d\theta \\
-&= r^2 \int_0^{2\pi} (1-\cos \theta)^2 \ d\theta
-= r^2 \int_0^{2\pi} (1-2\cos \theta + \cos^2\theta) \ d\theta \\
+A&=\int_0^{2\pi} y \ dx \\
+&= \int_0^{2\pi} r(1-\cos \theta)r(1-\cos \theta) \ d\theta \\
+&= r^2 \int_0^{2\pi} (1-\cos \theta)^2 \ d\theta \\
+&= r^2 \int_0^{2\pi} (1-2\cos \theta + \cos^2\theta) \ d\theta \\
 &= r^2 \int_0^{2\pi} \left(1-2\cos\theta+\frac{1+\cos 2\theta}{2} \right) \ d\theta \\
 &= r^2 \int_0^{2\pi} \left(\frac{3}{2}-2\cos\theta+ \frac{1}{2} \cos 2\theta\right) \ d\theta \\
 &= r^2 \left[ \frac{3}{2}\theta - 2\sin\theta + \frac{1}{4} \sin 2\theta\right]_0^{2\pi} = 3\pi r^2
