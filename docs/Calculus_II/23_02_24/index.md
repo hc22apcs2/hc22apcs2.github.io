@@ -43,8 +43,8 @@ Apply the Mean Value Theorem: $\displaystyle f'(x_i^*)=\frac{f(x_i)-f(x_{i-1})}{
 
 $$\begin{align*}
 \lvert P_{i-1}P_i\rvert&=\sqrt{(x_i-x_{i-1})^2+\left[f'(x_i^*)(x_i-x_{i-1})\right]^2} \\
-&=\sqrt{1+\left[f'(x_i^*)\right]^2} \ (x_i-x_{i-1}) 
-= \sqrt{1+\left[f'(x_i^*)\right]^2} \ \Delta x
+&=\sqrt{1+\left[f'(x_i^*)\right]^2} \ (x_i-x_{i-1}) \\
+&= \sqrt{1+\left[f'(x_i^*)\right]^2} \ \Delta x
 \end{align*}$$
 
 So
@@ -70,11 +70,11 @@ We have: $\dfrac{dy}{dx}=x^2-\dfrac{1}{4x^2}$
 Call $L$ be the desired length
 
 $$\begin{align*}
-L&=\int_1^2 \sqrt{1+\left(x^2-\frac{1}{4x^2}\right)^2} \ dx 
-= \int_1^2 \sqrt{\frac{1}{2}+x^4+\frac{1}{16x^4}} \ dx \\
-&= \int_1^2 \sqrt{\left(x^2+\frac{1}{4x^2}\right)^2} \ dx
-=\int_1^2 \left(x^2+\frac{1}{4x^2}\right) \ dx \\
-&=\left[\frac{x^3}{3}-\frac{1}{4x}\right]_1^2=\frac{59}{24}
+L&=\int_1^2 \sqrt{1+\left(x^2-\frac{1}{4x^2}\right)^2} \ dx \\
+&= \int_1^2 \sqrt{\frac{1}{2}+x^4+\frac{1}{16x^4}} \ dx \\
+&= \int_1^2 \sqrt{\left(x^2+\frac{1}{4x^2}\right)^2} \ dx \\
+&=\int_1^2 \left(x^2+\frac{1}{4x^2}\right) \ dx \\
+&=\left[\frac{x^3}{3}-\frac{1}{4x}\right]_1^2 =\frac{59}{24}
 \end{align*}$$
 
 
@@ -103,7 +103,10 @@ Suppose $f$ and $g$ are differentiable functions and we want to fing the tangent
 $$ \frac{dy}{dt}=\frac{dy}{dx} \cdot \frac{dx}{dt}$$
 
 If $dx/dt \neq 0$, then we can solve for $dy/dx$:
-$$\frac{dy}{dx}=\cfrac{\cfrac{dy}{dt}}{\cfrac{dx}{dt}} \ \ \ \ \ \ \ \ \text{if} \ \ \frac{dx}{dt} \neq 0$$
+
+$$
+\frac{dy}{dx}=\cfrac{\cfrac{dy}{dt}}{\cfrac{dx}{dt}} \ \ \ \ \ \ \ \ \text{if} \ \ \frac{dx}{dt} \neq 0
+$$
 
 Now we consider how to calculate $d^2y/dx^2$. This can be found by replacing $y$ by $dy/dx$ in equation above
 
@@ -146,10 +149,10 @@ $$x=r(\theta - \sin \theta) \ \ \ \ \ \ y=r(1-\cos \theta)$$
 _Solution:_
 
 $$\begin{align*}
-A&=\int_0^{2\pi} y \ dx 
-= \int_0^{2\pi} r(1-\cos \theta)r(1-\cos \theta) \ d\theta \\
-&= r^2 \int_0^{2\pi} (1-\cos \theta)^2 \ d\theta
-= r^2 \int_0^{2\pi} (1-2\cos \theta + \cos^2\theta) \ d\theta \\
+A&=\int_0^{2\pi} y \ dx \\
+&= \int_0^{2\pi} r(1-\cos \theta)r(1-\cos \theta) \ d\theta \\
+&= r^2 \int_0^{2\pi} (1-\cos \theta)^2 \ d\theta \\
+&= r^2 \int_0^{2\pi} (1-2\cos \theta + \cos^2\theta) \ d\theta \\
 &= r^2 \int_0^{2\pi} \left(1-2\cos\theta+\frac{1+\cos 2\theta}{2} \right) \ d\theta \\
 &= r^2 \int_0^{2\pi} \left(\frac{3}{2}-2\cos\theta+ \frac{1}{2} \cos 2\theta\right) \ d\theta \\
 &= r^2 \left[ \frac{3}{2}\theta - 2\sin\theta + \frac{1}{4} \sin 2\theta\right]_0^{2\pi} = 3\pi r^2
@@ -157,7 +160,7 @@ A&=\int_0^{2\pi} y \ dx
 
 #### c. Arc length
 
-If a curve $C$ is described by the parametric equations $x=f(t), y=g(t), \alpha \leq t \leq \beta$, where $f'$ and $g'$ are continuous on $[\alpha,\beta]$ and $C$ is traversed exactly once as $t$ increases from $\alpha$ to $\beta$, then length of $C$ is
+If a curve $C$ is described by the parametric equations $x=f(t), y=g(t), \alpha \leq t \leq \beta$, where $f'$ and $g'$ are continuous on $[\alpha,\beta]$ and $C$ is traversed **exactly once** as $t$ increases from $\alpha$ to $\beta$, then length of $C$ is
 
 $$L = \int_\alpha^\beta \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} \ dt$$
 
@@ -179,9 +182,4 @@ L&=\int_0^{2\pi} \sqrt{\left(\frac{dx}{d\theta}\right)^2 + \left(\frac{dy}{d\the
 &=2r \left[-2\cos\frac{\theta}{2}\right]_0^{2\pi} = 8r
 \end{align*}$$
 
-
-
-
-
-
-
+_Last update: 19:57 - 06/03/2023_
