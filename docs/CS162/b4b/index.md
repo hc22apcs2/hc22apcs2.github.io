@@ -107,7 +107,7 @@ void insertBeforeK(DNode* &pHead, int x, int k) {
 
 ### Problem 3
 
-#### Student' code
+#### Student's code
 
 {% capture code %}
 {% highlight cpp linenos %}
