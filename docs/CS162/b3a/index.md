@@ -6,26 +6,18 @@ parent: Introduction to Computer Science II
 
 {% include toc.md %}
 
-## Problem
+## Problem statements
 
-1. Construct a whole list
-2. Display the list
-3. Delete the whole list
-4. Insert a new Node to ther beginning of the list
-{% capture code %}
-{% highlight cpp linenos %}
+1. Insert a new Node to ther beginning of the list
+```cpp
 void insertAtBeginning(Node* pHead, int x);
-{% endhighlight %}
-{% endcapture %}
-{% include fix_linenos.html code=code %}
-5. Insert a new Node ``x`` after the \\(1^{st}\\) Node ``k`` (By saying Node ``x``, it means the Node with the value of x).  
+```
+
+1. Insert a new Node ``x`` after the \\(1^{st}\\) Node ``k`` (By saying Node ``x``, it means the Node with the value of x).  
 *Notes:* if there is no ``k``, don't insert.
-{% capture code %}
-{% highlight cpp linenos %}
+```cpp
 void insertAfterK(Node* pHead, int x, int k);
-{% endhighlight %}
-{% endcapture %}
-{% include fix_linenos.html code=code %}
+```
 
 ### Student's code
 
@@ -159,13 +151,14 @@ void insertAfterK(Node* pHead, int x, int k);
 ## Additional sub-problem:
 
 6. Insert Node ``x`` before Node ``k``.
+```cpp
+void insertBeforeK(Node*& pHead, int x, int k);
+```
 
 ### Student's code
 
 {% capture code %}
 {% highlight cpp linenos %}
-void insertBeforeK(Node*& pHead, int x, int k);
-
 void insertBeforeK(Node*& pHead, int x, int k) {
     Node* cur = pHead;
     while(cur != nullptr && cur->pNext->data != k) {
