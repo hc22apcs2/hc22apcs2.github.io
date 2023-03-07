@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Calculus II - 13/02/2023
+title: Note 1 - 13/02/2023
 parent: Calculus II
 ---
 
