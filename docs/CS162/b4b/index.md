@@ -8,11 +8,11 @@ parent: Introduction to Computer Science II
 
 ## Continue with the last lecture
 
-Last time with ``Singly Linked List`` we have done the problem insert `x` before `k`. Now we will do that work in Doubly Linked List
+Last time with ``Singly Linked List`` we have inserted `x` before `k`. Now we will do the similar thing using  Doubly Linked List
 
 With Singly Linked List we can't Insert `x` before `k` with our cur position right at `k` but can we do that with Doubly Linked List?
 
-Let do it and check it out!
+Let's give it a try!
 
 ### Problem statements
 
@@ -63,10 +63,10 @@ void insertB4K(DNode* &pHead, int x, int k) {
 
 #### Discussion
 
-The code is okay but there few modification can be made.
+The code is okay, though some modifications can be made.
 
 - If we remove the ``if statement`` at ``line 4``, is it okay?
-    - Yes, but we have to make some modification at ``line 13`` because of the case where ``cur == pHead`` and is not pointing at any ``DNode`` (the DLL is empty).
+    - Yes, but we have to make some modifications at ``line 13`` because in case ``cur == pHead`` and ``cur`` is not pointing to any ``DNode`` (the DLL is empty).
 
 - Can we remove the ``if statement`` at ``line 2``?
     - Yes, because if ``pHead == nullptr`` it will not run the ``for loop``.
