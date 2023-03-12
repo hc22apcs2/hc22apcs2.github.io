@@ -7,11 +7,13 @@ parent: General Physics II
 {% include toc.md %}
 
 ## Work (Work done by the field)
+
 $$
 W_{field} = \int \vec F. d\vec s = \int F.ds.cos\theta = \int_{line} q.\vec E. d\vec s
 $$
 
 ## Work - KE theorem of a particle
+
 $$
 W_{field} = \Delta K = K_f -K_i
 $$
@@ -36,7 +38,7 @@ $$
 **Therefore:**
 <span style="color: red"> 
 $$ 
-Choose \, V_i = 0 \to V_f = -\int_i^f \vec E.d \vec s
+\displaystyle Choose \, V_i = 0 \to V_f = -\int_i^f \vec E.d \vec s
 $$
 </span>
 
