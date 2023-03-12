@@ -17,9 +17,9 @@ delete p;
 {% endcapture %}
 {% include fix_linenos.html code=code %}
 
-This will crash because after delete ``p`` the first time, your program does not allocated to that slot anymore.
+This will crash. The first delete call will deallocate the data that ``p`` points to. Then, ``p`` still points to the same slot, but there's nothing in that slot to delete, so the next delete call will crash the program.
 
-But when you delete the ``null pointer`` multiple times, it will not crashed. This is because the ``null pointer`` do not belong to any programs.
+However, if you delete the ``null pointer``, either once or multiple times, nothing will happen. This is specified by the C++ Standard. You should always assign ``p`` to the ``null pointer`` immediately after deleting.
 
 ## Now it's time to build a simple linked list:
 
