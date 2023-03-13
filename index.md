@@ -30,3 +30,6 @@ permalink: /
 - Nguyễn Hoàng Phúc 76 (MTH252)
 - Lương Nguyên Khoa (PH212)
 - Đào Xuân Thành (BAA00004, BAA00102)
+
+**Proofreaders:**
+- Huỳnh Hà Phương Linh
