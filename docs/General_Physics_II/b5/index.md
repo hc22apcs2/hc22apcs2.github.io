@@ -19,6 +19,7 @@ W_{field} = \Delta K = K_f -K_i
 $$
 
 **System = a charge + the field : isolated**
+
 $$
 \Delta K - W_{field} = 0 \, (W_{field} = \Delta U)
 $$
@@ -42,18 +43,14 @@ $$
 $$
 </span>
 
-**[energy]** = 1eV = 1,6.10^{-19} (J)
+**[energy]** = 1eV = $1,6.10^{-19} (J)$
 **[electric field]** = $\frac{V}{m}$ = $\frac{N}{C}$
 
 ## Charged Particle in a Uniform Field
 <img src = "rhi5EZA.png" width = 500 height = 400>
 
 $$
-\displaystyle \Delta V = -\int_i^f \vec E.d\vec s = - \int_i^f E.ds
-$$
-
-$$
-\displaystyle -E \int_i^f ds = -E.d < 0 \to V_f < V_i
+\displaystyle \Delta V = -\int_i^f \vec E.d\vec s = - \int_i^f E.ds = -E \int_i^f ds = -E.d < 0 \to V_f < V_i
 $$
 
 ## Equipotential Surface (Mặt đẳng thế)
@@ -75,7 +72,7 @@ $$
 $$
 
 $$
-= kQ.(\frac{1}{r_B} - \frac{1}{r_A}) = V_B - V_A
+= kQ.\left(\frac{1}{r_B} - \frac{1}{r_A}\right) = V_B - V_A
 $$
 
 
@@ -88,23 +85,24 @@ $$
 
 ## System of charges
 $$
-\displaystyle \Delta V = -\int E_{net}.d \vec s = - \int(\Sigma \vec E).d \vec s
+\displaystyle \Delta V = -\int E_{net}.d \vec s = - \int(\sum \vec E).d \vec s
 $$
 
 $$
-\displaystyle = -\Sigma \int\vec E.d\vec s = \Sigma \Delta V
+\displaystyle = -\sum \int\vec E.d\vec s = \sum \Delta V
 $$
 
 Choose $V_{\infty} = 0:$
 <span style="color: red"> 
 $$
-V = \Sigma\frac{k.Q_i}{r_i}
+V = \sum\frac{k.Q_i}{r_i}
 $$
 </span>
 
 ## Assignments
 ![](Z1xtCDa.png)
 ![](eGPLi4C.png)
+![](fyrV3bJ.png)
 
 ## Other references
 * [MIT Physics 2](https://www.youtube.com/playlist?list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j)
