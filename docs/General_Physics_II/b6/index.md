@@ -30,7 +30,7 @@ Choose \,\  r_a \,\ where \,\ V_A = 0:
 $$
 
 $$
-V(r) = -\frac{lambda}{2\pi\dot\epsilon_0}.lnr +const
+V(r) = -\frac{\lambda}{2\pi\epsilon_0}.\ln r +const
 $$
 
 ### Problem 2
@@ -67,7 +67,8 @@ $$
 * $\vec E_{inside} = 0$
 * $V_{inside} = 0$
 * Extra charges on the surface.
-<span style="color: red"> **Notes:** </span>
+<span style="color: red"> 
+**Notes:** </span>
 $\vec E$ is vertical because if not, it will create an angle so it will have the tangent component so it will move which is illogical with "electrostatic" (No moving charges)
 $\to \vec E \bot$ surface
 
