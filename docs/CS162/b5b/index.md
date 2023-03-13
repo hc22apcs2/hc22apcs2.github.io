@@ -10,7 +10,7 @@ parent: Introduction to Computer Science II
 
 ## Introduction - Circular Linked List (cont.)
 
-Problem 1 appeared in the midterm exam 2 years ago.
+Problem 1 appeared in the midterm exam 2 years ago. The problem's also known as Josephus problem. If you are interested, go to <a href = "#references">references</a> section.
 
 ## Problem statements
 
@@ -225,3 +225,9 @@ void removeBasedOnK(Node* &pFirst, int k) {
 {% endhighlight %}
 {% endcapture %}
 {% include fix_linenos.html code=code %}
+
+## References
+
+Josephus problem: 
+- [Wiki](https://en.wikipedia.org/wiki/Josephus_problem)
+- [Youtube \(Numberphile\)](https://www.youtube.com/watch?v=uCsD3ZGzMgE&t=6s)
