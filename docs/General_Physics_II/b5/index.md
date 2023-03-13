@@ -9,7 +9,7 @@ parent: General Physics II
 ## Work (Work done by the field)
 
 $$
-W_{field} = \int \vec F. d\vec s = \int F.ds.cos\theta = \int_{line} q.\vec E. d\vec s
+\displaystyle W_{field} = \int \vec F. d\vec s = \int F.ds.cos\theta = \int_{line} q.\vec E. d\vec s
 $$
 
 ## Work - KE theorem of a particle
@@ -28,7 +28,7 @@ $$
 $$
 
 $$
-\Delta U = - \int_{initial}^{final} q.\vec E. d\vec s = U_f - U_i = q.\Delta V
+\displaystyle \Delta U = - \int_{initial}^{final} q.\vec E. d\vec s = U_f - U_i = q.\Delta V
 $$
 
 $$
@@ -49,29 +49,29 @@ $$
 <img src = "rhi5EZA.png" width = 500 height = 400>
 
 $$
-\Delta V = -\int_i^f \vec E.d\vec s = - \int_i^f E.ds
+\displaystyle \Delta V = -\int_i^f \vec E.d\vec s = - \int_i^f E.ds
 $$
 
 $$
--E \int_i^f ds = -E.d < 0 \to V_f < V_i
+\displaystyle -E \int_i^f ds = -E.d < 0 \to V_f < V_i
 $$
 
 ## Equipotential Surface (Mặt đẳng thế)
-![](https://i.imgur.com/5YuQYYs.png)
+![](5YuQYYs.png)
 
 ## Potential and Point Charges
-<img src = "https://i.imgur.com/J8I6lr7.png" width = 500 height = 500>
+<img src = "J8I6lr7 (1).png" width = 500 height = 500>
 
 $$
-\Delta V = -\int_A^B \vec E.d\vec s = -\int_{circular}\vec E. d\vec s - \int_{radial}\vec E. d\vec s 
-$$
-
-$$
-\int_{circular}\vec E. d\vec s = 0
+\displaystyle \Delta V = -\int_A^B \vec E.d\vec s = -\int_{circular}\vec E. d\vec s - \int_{radial}\vec E. d\vec s 
 $$
 
 $$
-= -\int_{r_A}^{r_B}\frac{kQ.dr}{r^2}
+\displaystyle \int_{circular}\vec E. d\vec s = 0
+$$
+
+$$
+\displaystyle = -\int_{r_A}^{r_B}\frac{kQ.dr}{r^2}
 $$
 
 $$
@@ -88,11 +88,11 @@ $$
 
 ## System of charges
 $$
-\Delta V = -\int E_{net}.d \vec s = - \int(\Sigma \vec E).d \vec s
+\displaystyle \Delta V = -\int E_{net}.d \vec s = - \int(\Sigma \vec E).d \vec s
 $$
 
 $$
-= -\Sigma \int\vec E.d\vec s = \Sigma \Delta V
+\displaystyle = -\Sigma \int\vec E.d\vec s = \Sigma \Delta V
 $$
 
 Choose $V_{\infty} = 0:$
@@ -103,9 +103,10 @@ $$
 </span>
 
 ## Assignments
-![](https://i.imgur.com/Z1xtCDa.png)
-![](https://i.imgur.com/eGPLi4C.png)
+![](Z1xtCDa.png)
+![](eGPLi4C.png)
 
 ## Other references
 * [MIT Physics 2](https://www.youtube.com/playlist?list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j)
 * [Michel van Biezen](https://www.youtube.com/playlist?list=PLX2gX-ftPVXX7BZOcM1Y2gb8IQrTBrmUB)
+* [Khan Academy](https://www.khanacademy.org/science/in-in-class-12th-physics-india)
