@@ -4,7 +4,7 @@ title: CS162 - 5A
 parent: Introduction to Computer Science II
 --- 
 
-*Reviewed by Huỳnh Hà Phương Linh*
+*Proofread by Huỳnh Hà Phương Linh*
 
 {% include toc.md %}
 
