@@ -213,7 +213,7 @@ void removeBasedOnK(Node* &pFirst, int k) {
     
     //This while loop will handle the deletion
     while(n > 0) {
-        //Loop through k-1 node to get right before the 
+        //Loop through k-1 node(s) to get right before the 
         //meant-to-be-deleted node and delete it
         for(int t = 1; t <= (k+n-1) % n; t++)
             pFirst = pFirst->pNext;
