@@ -202,7 +202,7 @@ void removeBasedOnK(Node* &pFirst, int k) {
     if(pFirst == nullptr) return;
     
     //This first block of code will compute the size of the CLL 
-    //(stored in n) and set pFirst pointing to the last element
+    //(stored in n) and set pFirst pointing to its last element
     int n = 1;
     Node* tmp = pFirst;
     while(pFirst->pNext != tmp)
