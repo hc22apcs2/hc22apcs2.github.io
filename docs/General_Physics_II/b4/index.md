@@ -28,14 +28,7 @@ $$
 \int_0^h c.x.dx.dy = c\int_0^w x.dx \int_0^h dy = c.\frac{w^2}{2}.h
 $$
 
-
-
-
-
-
-
-
-
 ## Other references
 * [MIT Physics 2](https://www.youtube.com/playlist?list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j)
 * [Michel van Biezen](https://www.youtube.com/playlist?list=PLX2gX-ftPVXX7BZOcM1Y2gb8IQrTBrmUB)
+* [Khan Academy](https://www.khanacademy.org/science/in-in-class-12th-physics-india)

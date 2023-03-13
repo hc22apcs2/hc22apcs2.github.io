@@ -69,3 +69,4 @@ $$
 ## Other references
 * [MIT Physics 2](https://www.youtube.com/playlist?list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j)
 * [Michel van Biezen](https://www.youtube.com/playlist?list=PLX2gX-ftPVXX7BZOcM1Y2gb8IQrTBrmUB)
+* [Khan Academy](https://www.khanacademy.org/science/in-in-class-12th-physics-india)
