@@ -35,7 +35,7 @@ void removeAllXs(Node* &pFirst, int x);
 {% capture code %}
 {% highlight cpp linenos %}
 Node* findX(Node* pFirst) {
-    Node* cur=pHead;
+    Node* cur=pFirst;
     if(pFirst == nullptr)
         return nullptr;
     while(cur->data != x && cur->pNext != pFirst) {
