@@ -2,6 +2,7 @@
 layout: post
 title: Physics II - B10
 parent: General Physics II
+nav_order: 11
 ---
 *Proofread by Huỳnh Hà Phương Linh*
 
