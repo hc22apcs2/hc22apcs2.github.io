@@ -8,6 +8,7 @@ parent: General Physics II
 {% include toc.md %}
 
 ## Electromotive force (Suất điện động)
+
 $$
 \xi = emf \,\ (volt)
 $$
@@ -100,9 +101,9 @@ $$
 \ln(\frac{q-C\xi}{-C\xi}) = -\frac{t}{RC}
 $$
 
-<span style="color: red">**Notes:**
-$q(t) = \xi.C(1-e^{\frac{-t}{RC}}) = Q_{max}.(1-e^{\frac{-t}{RC}})$
-$i(t) = \frac{dQ}{dt} = \frac{\xi}{R}.e^{\frac{-t}{RC}}$
+<span style="color: red">**Notes:**<br>
+$q(t) = \xi.C(1-e^{\frac{-t}{RC}}) = Q_{max}.(1-e^{\frac{-t}{RC}})$ <br>
+$i(t) = \frac{dQ}{dt} = \frac{\xi}{R}.e^{\frac{-t}{RC}}$<br>
 $\tau = RC (s):$ **time constant**</span>
 
 ## Other references

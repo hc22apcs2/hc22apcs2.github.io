@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Physics II - B3
+title: Physics II - B03
 parent: General Physics II
 ---
 

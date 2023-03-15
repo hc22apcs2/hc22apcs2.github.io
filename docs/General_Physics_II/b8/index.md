@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Physics II - B8
+title: Physics II - B08
 parent: General Physics II
 ---
 
