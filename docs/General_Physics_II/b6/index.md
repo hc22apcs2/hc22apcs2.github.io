@@ -57,7 +57,7 @@ $$
 $$
 
 $$
-= -\frac{Q}{4\pi.\epsilon_0}.(\frac{1}{r_a^2} - \frac{1}{r_b^2})
+= -\frac{Q}{4\pi.\epsilon_0}.\bigg(\frac{1}{r_a} - \frac{1}{r_b}\bigg)
 $$
 
 $$
