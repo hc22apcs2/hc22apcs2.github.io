@@ -2,6 +2,7 @@
 layout: post
 title: Physics II - B08
 parent: General Physics II
+nav_order: 8
 ---
 
 {% include toc.md %}

@@ -2,6 +2,7 @@
 layout: post
 title: Physics II - B02
 parent: General Physics II
+nav_order: 2
 ---
 
 ---
