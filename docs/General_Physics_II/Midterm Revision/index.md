@@ -46,7 +46,8 @@ nav_order: 10
 
 ### Conductor in Electrostatic Equilibrium
 * $E_{inside} = 0$ 
-* $V_{inside} = 0$
+* $V_{inside} = const$
+* $\Delta V= 0$ *between any two points on the surface.*
 * *Extra charges on the surface.*
 * $\displaystyle E = \frac{\sigma}{\epsilon_0}$ ***(Nguyên lý hoạt động của cột ngư lôi)***
 
