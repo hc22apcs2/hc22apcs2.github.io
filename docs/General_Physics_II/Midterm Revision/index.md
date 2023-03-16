@@ -38,7 +38,7 @@ nav_order: 10
 
 ### The potential difference between points A and B:
 * $\displaystyle V_B - V_A = k_eq\bigg[\frac{1}{r_B} - \frac{1}{r_A}\bigg]$
-* Choose $r_A \to \infty$ and $V_A = 0:$ $\displaystyle V = \sum_i \frac{kQ_i}{r_ii}$
+* Choose $r_A \to \infty$ and $V_A = 0:$ $\displaystyle V = \sum_i \frac{kQ_i}{r_i}$
 * $\displaystyle E = -\frac{dV}{dx} \to F = -\frac{dU}{dx}$
 
 ### Electric Potential for a Continuous Charge Distribution
