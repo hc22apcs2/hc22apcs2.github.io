@@ -105,7 +105,7 @@ nav_order: 10
 * $U = -\vec p\cdot \vec E$
 
 ## Chap 26
-* $\displaystyle I_{avg} = \frac{\Delta Q}{\Delta t} = \frac{n.q}{\Delta t} = \frac{\frac{n}{V}.V.q}{\Delta t} = n.A.q.v.d$ 
+* $\displaystyle I_{avg} = \frac{\Delta Q}{\Delta t} = \frac{n.q}{\Delta t} = \frac{\frac{n}{V}.V.q}{\Delta t} = n.A.q.v$ 
 
 ### Ohm Law
 * $\displaystyle J = \sigma.E \to \frac{I}{A} = \sigma.\frac{\Delta V}{l} \to \frac{\Delta V}{I} = \frac{l}{\sigma.A} = R$
