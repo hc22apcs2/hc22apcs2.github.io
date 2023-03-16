@@ -66,7 +66,8 @@ $$
 
 ## Conductor in electrostatic equilibrium
 * $\vec E_{inside} = 0$
-* $V_{inside} = 0$
+* $V_{inside} = const$
+* $\Delta V= 0$ *between any two points on the surface.*
 * Extra charges on the surface.
 <span style="color: red"> 
 **Notes:** </span>
