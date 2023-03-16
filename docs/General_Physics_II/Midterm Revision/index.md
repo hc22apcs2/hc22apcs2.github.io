@@ -101,7 +101,7 @@ nav_order: 10
 * $\displaystyle C = \frac{\kappa\epsilon_0A}{d}$
 
 ### Electric Dipole
-* $\vec\tau = \vec p\cdot\vec E$
+* $\vec\tau = \vec p\times\vec E$
 * $\vec p = q\cdot\vec d$
 * $U = -\vec p\cdot \vec E$
 
