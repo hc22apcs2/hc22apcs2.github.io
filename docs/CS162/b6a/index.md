@@ -191,7 +191,7 @@ struct MyQueue {
 };
 
 void MyQueue::enqueue(Node* pNew) {
-    if(!pHeadd) {
+    if(!pHead) {
         pHead = pNew;
         pTail = pNew;
         pHead->pNext = nullptr;
