@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Physics II - B9
+title: Physics II - B09
 parent: General Physics II
+nav_order: 9
 ---
 
 {% include toc.md %}
@@ -11,7 +12,7 @@ parent: General Physics II
 ![](tsffbsH.png)
 
 ## Current and Drift Speed
-$I_{avg} = \frac{\Delta Q}{\Delta t} = \frac{n.q}{\Delta t} = \frac{\frac{n}{V}.V.q}{\Delta t} = n.A.q.v.d$ 
+$\displaystyle I_{avg} = \frac{\Delta Q}{\Delta t} = \frac{n.q}{\Delta t} = \frac{\frac{n}{V}.V.q}{\Delta t} = n.A.q.v$ 
 * **n is the number of mobile charge carriers per unit volume** 
 
 ## Current Density
@@ -35,8 +36,9 @@ $$
 $$
 
 $$
-J = n.q.v.d = \frac{n.q.E}{m_e}.\tau = \sigma . E 
+J = n.q.v = \frac{n.q.E}{m_e}.\tau = \sigma . E 
 $$
+
 <img src = "83hn7WX.png" width = 300 height = 100>
 
 * **Note, according to this classical model, the conductivity and the resistivity do not depend on the strength of the field.**

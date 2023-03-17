@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Physics II - B6
+title: Physics II - B06
 parent: General Physics II
+nav_order: 6
 ---
 
 {% include toc.md %}
@@ -56,7 +57,7 @@ $$
 $$
 
 $$
-= -\frac{Q}{4\pi.\epsilon_0}.(\frac{1}{r_a^2} - \frac{1}{r_b^2})
+= -\frac{Q}{4\pi.\epsilon_0}.\bigg(\frac{1}{r_a} - \frac{1}{r_b}\bigg)
 $$
 
 $$
@@ -65,7 +66,8 @@ $$
 
 ## Conductor in electrostatic equilibrium
 * $\vec E_{inside} = 0$
-* $V_{inside} = 0$
+* $V_{inside} = const$
+* $\Delta V= 0$ *between any two points on the surface.*
 * Extra charges on the surface.
 <span style="color: red"> 
 **Notes:** </span>

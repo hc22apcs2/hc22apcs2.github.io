@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Physics II - B1
+title: Physics II - B01
 parent: General Physics II
+nav_order: 1
 ---
 
 {% include toc.md %}
@@ -49,8 +50,8 @@ parent: General Physics II
 
 ![](https://i.ibb.co/dPzLdJ3/undefined-Imgur.png)
 
-* Like charges repel = repel
-* Unlike charges attract = attract
+* Like charges repel $\simeq$ repel
+* Unlike charges attract $\simeq$ attract
 
 ## Superposition principle (Nguyên lý chồng chất)
 * The **resultant force** on any one charge equals the **vector sum** of the forces exerted by the other individual charges that are present.

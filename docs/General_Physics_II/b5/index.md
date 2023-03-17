@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Physics II - B5
+title: Physics II - B05
 parent: General Physics II
+nav_order: 5
 ---
 
 {% include toc.md %}
