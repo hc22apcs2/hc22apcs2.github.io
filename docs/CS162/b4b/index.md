@@ -31,7 +31,7 @@ void delete1K(DNode* &pHead, int k);
 void deleteAllKs(DNode* &pHead, int k);
 ```
 
-### Problem 2
+### Problem 1
 
 #### Student's code
 
@@ -105,7 +105,7 @@ void insertBeforeK(DNode* &pHead, int x, int k) {
 {% endcapture %}
 {% include fix_linenos.html code=code %}
 
-### Problem 3
+### Problem 2
 
 #### Student's code
 
@@ -162,7 +162,7 @@ void delete1K(DNode* &pHead, int k)
 {% endcapture %}
 {% include fix_linenos.html code=code %}
 
-### Problem 4
+### Problem 3
 
 #### Student's code
 
