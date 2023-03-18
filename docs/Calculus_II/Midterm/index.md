@@ -39,7 +39,7 @@ $$
 
 ## III. Polar curves
 
-### 1. Relevant infomation with Cartesian coordinate:
+### 1. Relevant information on Cartesian coordinate:
 
 $x=r\cos\theta$
 
@@ -63,7 +63,7 @@ $\displaystyle \frac{dy}{dx}=\frac{dy/d\theta}{dx/d\theta}=\cfrac{\cfrac{dr}{d\t
   * $r=2b\sin\theta \ \ \ \ \$ The circle centered at $(0,b)$ with radius $\vert b \vert$
   * $r=2a\cos\theta+2b\sin\theta \ \ \ \ \$ The circle centered at $(a,b)$ with radius $\sqrt{a^2+b^2}$
 
-If we are given other form, we should investigate the function $r=f(\theta)$, which means calculating derivative, critical point, ..., in order to have enough infomation for drawing the curve accurately.
+If we are given other form, we should investigate the function $r=f(\theta)$, which means calculating derivative, critical point, ..., in order to have enough information for drawing the curve accurately.
 
 ### 3. Area:
 
