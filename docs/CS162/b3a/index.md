@@ -195,11 +195,7 @@ void insertBeforeK(Node*& pHead, int x, int k) {
         insertAtBeginning(pHead, x);
         return;
     }
-    
-    if(cur && cur->pNext && cur->data == k) {
-        insertAtBeginning(pHead, x);
-        return;
-    }
+
     while(cur && cur->pNext && cur->pNext->data != k) {
         cur = cur->pNext;
     }

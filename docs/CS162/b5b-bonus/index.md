@@ -64,7 +64,7 @@ The code is simple and it works, but we have modified the structure of the node 
 
 ## Memory-friendly solution
 
-Notice that as we iterate through the list, the distance between the first node and the iterating node grows before crossing the LL's tail. Hence, if a loop exists, at some point the distance . with that observation, we came up with the following code:
+Notice that as we iterate through the list, the distance between the first node and the iterating node grows before crossing the LL's tail. Hence, if a loop exists, at some point the distance will stop growing. With that observation, we came up with the following code:
 
 {% capture code %}
 {% highlight cpp linenos %}

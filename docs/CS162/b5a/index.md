@@ -93,7 +93,7 @@ void remove1stX(Node* &pFirst, int x) {
 
 {% capture code %}
 {% highlight cpp linenos %}
-void removeAllXs(Node* &pFirst, int x) {
+void remove1stX(Node* &pFirst, int x) {
     if(pFirst == nullptr) return;
     if(pFirst->data == x) {
         Node* pLast = pFirst;
@@ -103,6 +103,7 @@ void removeAllXs(Node* &pFirst, int x) {
         if(pLast == pFirst) {
             delete pFirst;
             pFirst = nullptr;
+            return;
         }
         
         pLast->pNext = pFirst->pNext;

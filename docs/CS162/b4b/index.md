@@ -145,7 +145,7 @@ void delete1K(DNode* &pHead, int k)
     for(DNode *cur = pHead; cur; cur = cur->pNext) {
         if(cur->data == k) {
             //-------------------------------//
-            if(cur)
+            if(cur->pNext)
                 cur->pNext->pPrev = cur->pPrev;
             //-------------------------------//
             if(cur->pPrev) 
