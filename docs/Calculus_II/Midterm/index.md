@@ -23,13 +23,15 @@ $$
 
 ### 2. Several formulas:
 
-* Disk method: $y=f(x)$, $a \leq x \leq b$, rotate about the $x$-axis
+Given $y=f(x)$, $a \leq x \leq b$
+
+* Disk method: rotate about the $x$-axis
 
 $$
 V=\int_a^b \pi \left[f(x)\right]^2 \ dx
 $$
 
-* Shell method: $y=f(x)$, $a \leq x \leq b$, rotate about the $y$-axis
+* Shell method: rotate about the $y$-axis
 
 $$
 V=\int_a^b 2\pi xf(x) \ dx
