@@ -13,6 +13,20 @@ nav_order: 7
 
 ## III. Polar curves
 
+### 1. Sketch the curve:
+
+* Lines
+  * $\theta=\alpha \ \ \ \ \$ The line from $(0,0)$ set at the angle $\alpha$
+  * $r\cos\theta=a \ \ \ \ \$ The vertical line through $x=a$
+  * $r\sin\theta=b \ \ \ \ \$ The horizontal line through $y=b$
+* Circles
+  * $r=a \ \ \ \ \$ The circle centered at $(0,0)$ with radius $a$
+  * $r=2a\cos\theta \ \ \ \ \$ The circle centered at $(a,0)$ with radius $\vert a \vert$
+  * $r=2b\sin\theta \ \ \ \ \$ The circle centered at $(0,b)$ with radius $\vert b \vert$
+  * $r=2a\cos\theta+2b\sin\theta \ \ \ \ \$ The circle centered at $(a,b)$ with radius $\sqrt{a^2+b^2}$
+
+If we are given other form, we should investigate the function $r=f(\theta)$, which means calculating derivative, critical point, ..., in order to have enough infomation for drawing the curve accurately.
+
 ## IV. Length of a curve
 
 ### 1. Cartesian coordinates:
