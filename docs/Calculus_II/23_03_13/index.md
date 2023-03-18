@@ -2,6 +2,7 @@
 layout: post
 title: Note 6 - 13/03/2023
 parent: Calculus II
+nav_order: 6
 ---
 
 {% include toc.md %}
