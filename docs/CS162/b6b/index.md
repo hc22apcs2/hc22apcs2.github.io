@@ -50,10 +50,10 @@ parent: Introduction to Computer Science II
 
 |               |              Create               |              Display              |            Remove all             |              Search               |              Insert               |         Remove some nodes         |
 | ------------- |:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|
-| `Singly LL`   | [code](https://ideone.com/DAnHcV) | [code](https://ideone.com/xLBVeD) | [code](https://ideone.com/89SReN) |               code                | [code](https://ideone.com/xwFzC5) | [code](https://ideone.com/VH1qiJ) |
-| `Ordered LL`  |               code                | [code](https://ideone.com/xLBVeD) | [code](https://ideone.com/89SReN) |               code                | [code](https://ideone.com/1VitMx) | [code](https://ideone.com/VH1qiJ) |
-| `Doubly LL`   |               code                |               code                | [code](https://ideone.com/fWDFRc) |               code                | [code](https://ideone.com/5ruPUt) | [code](https://ideone.com/HVcHCM) |
-| `Circular LL` |               code                |               code                |               code                | [code](https://ideone.com/YSHeuK) |               code                | [code](https://ideone.com/TTDQON) |
+| **Singly LL**   | [code](https://ideone.com/DAnHcV) | [code](https://ideone.com/xLBVeD) | [code](https://ideone.com/89SReN) |               code                | [code](https://ideone.com/xwFzC5) | [code](https://ideone.com/VH1qiJ) |
+| **Ordered LL**  |               code                | [code](https://ideone.com/xLBVeD) | [code](https://ideone.com/89SReN) |               code                | [code](https://ideone.com/1VitMx) | [code](https://ideone.com/VH1qiJ) |
+| **Doubly LL**   |               code                |               code                | [code](https://ideone.com/fWDFRc) |               code                | [code](https://ideone.com/5ruPUt) | [code](https://ideone.com/HVcHCM) |
+| **Circular LL** |               code                |               code                |               code                | [code](https://ideone.com/YSHeuK) |               code                | [code](https://ideone.com/TTDQON) |
 
 
 ### Data abstraction
