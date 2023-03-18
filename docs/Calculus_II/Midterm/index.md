@@ -27,6 +27,14 @@ nav_order: 7
 
 If we are given other form, we should investigate the function $r=f(\theta)$, which means calculating derivative, critical point, ..., in order to have enough infomation for drawing the curve accurately.
 
+### 2. Area:
+
+The formula for the area $A$ of the polar region of the curve $r=f(\theta)$, $a \leq \theta \leq b$, is:
+
+$$
+A=\int_a^b \frac{1}{2} r^2 d\theta
+$$
+
 ## IV. Length of a curve
 
 ### 1. Cartesian coordinates:
