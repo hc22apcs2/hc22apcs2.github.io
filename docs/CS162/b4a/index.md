@@ -180,11 +180,10 @@ My comment: `"Very eleganto!"`
 # Double linked list
 
 ```cpp
-struct DNode
-{
+struct DNode {
     int data;
     DNode* pPrev, *pNext;
-}
+};
 ```
 
 With the new member - pointer ``DNode``, the list created base on these nodes are called ``Doubly Linked List``. Its name explained a lots about how it'll be used, it point to the previous node in the list.
@@ -206,7 +205,7 @@ void insertBeforeK(DNode* &pHead, int x, int k);
 ### Teacher's code
 ```cpp
 void insertAtBeginning(DNode* &pHead, int x) {
-    dNode* tmp = new DNode;
+    DNode* tmp = new DNode;
     tmp->data = x;
     tmp->pNext = pHead;
     tmp->pPrev = nullptr;

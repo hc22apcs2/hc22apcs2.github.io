@@ -16,7 +16,7 @@ parent: Introduction to Computer Science II
 
 1. Find ``x``
 ```cpp
-Node* findX(Node* pFirst);
+Node* findX(Node* pFirst, int x);
 ```
 
 2. Remove the $1^{st}$ ``x``
@@ -34,7 +34,7 @@ void removeAllXs(Node* &pFirst, int x);
 
 {% capture code %}
 {% highlight cpp linenos %}
-Node* findX(Node* pFirst) {
+Node* findX(Node* pFirst, int x) {
     Node* cur=pFirst;
     if(pFirst == nullptr)
         return nullptr;
@@ -58,7 +58,7 @@ THE FIRST ACCEPTED CODE WRITEN BY **Ô HỚN SÂM**.
 
 {% capture code %}
 {% highlight cpp linenos %}
-void removeAllXs(Node* &pFirst, int x) {
+void remove1stX(Node* &pFirst, int x) {
     if(pFirst == nullptr) return;
     if(pFirst->pNext == pFirst) {
         if(pFirst->data == x) {

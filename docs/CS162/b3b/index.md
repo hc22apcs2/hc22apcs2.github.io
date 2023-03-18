@@ -8,29 +8,26 @@ parent: Introduction to Computer Science II
 
 ## Problem
 
-7. Delete the first Node with value ``k`` from the list
+1. Delete the first Node
+```cpp
+void deleteAtBeginning(Node* &pHead);
+```
 
-{% capture code %}
-{% highlight cpp linenos %}
+2. Delete the first Node with value ``k`` from the list
+```cpp
 void deleteANode(Node*& pHead, int k);
-{% endhighlight %}
-{% endcapture %}
-{% include fix_linenos.html code=code %}
+```
 
-8. Delete all nodes ``k`` from the list
-
-{% capture code %}
-{% highlight cpp linenos %}
+3. Delete all nodes ``k`` from the list
+```cpp
 void deleteAllNode(Node*& pHead, int k);
-{% endhighlight %}
-{% endcapture %}
-{% include fix_linenos.html code=code %}
+```
 
 ## Solution
 
 {% capture code %}
 {% highlight cpp linenos %}
-void deleteAt(Node* &pHead)
+void deleteAtBeginning(Node* &pHead)
 {
     Node* cur = pHead;
     if (pHead) pHead = pHead->pNext;
