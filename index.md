@@ -6,9 +6,12 @@ description: "Đây là trang web được tạo ra từ chi Đoàn 22TT2/22APCS
 permalink: /
 ---
 
-<!-- # Thông báo
+# Thông báo
 
---- -->
+- Review midterm CS: [docs/CS162/b6b](docs/CS162/b6b)
+- Review midterm Lý 2: [docs/General_Physics_II/Midterm_Revision](docs/General_Physics_II/Midterm_Revision)
+
+---
 
 # Giới thiệu
 
