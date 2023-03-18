@@ -19,6 +19,20 @@ $$
 V=\displaystyle\lim_{n \to \infty} \sum_{i=1}^n A(x_i^*) \Delta x = \int_a^b A(x) dx
 $$
 
+### 2. Several formulas:
+
+* Disk method: $y=f(x)$, $a \leq x \leq b$, rotate about the $x$-axis
+
+$$
+V=\int_a^b \pi \left[f(x)\right]^2 \ dx
+$$
+
+* Shell method: $y=f(x)$, $a \leq x \leq b$, rotate about the $y$-axis
+
+$$
+V=\int_a^b 2\pi xf(x) \ dx
+$$
+
 ## III. Polar curves
 
 ### 1. Sketch the curve:
