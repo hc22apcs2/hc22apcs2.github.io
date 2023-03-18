@@ -15,7 +15,7 @@ nav_order: 7
 
 ## IV. Length of a curve
 
-### * Cartesian coordinates:
+### 1. Cartesian coordinates:
 
 If $f'$ is continuous on $[a,b]$, then the length of the curve $y=f(x)$, $a \leq x \leq b$, is:
 
@@ -23,7 +23,7 @@ $$
 L=\int_a^b \sqrt{1+[f'(x)]^2} \ dx
 $$
 
-### * Polar coordinates:
+### 2. Polar coordinates:
 
 If $f'$ is continuous on $[a,b]$, then the length of the curve $r=f(\theta)$, $a \leq \theta \leq b$, is:
 
@@ -33,7 +33,7 @@ $$
 
 ## V. The fundamental theorem of Calculus
 
-### * Part 1:
+### 1. Part 1:
 
 If $f$ is continuous on $[a,b]$, then the function $g$ defined by
    
@@ -43,7 +43,7 @@ $$
 
 is continuous on $[a,b]$ and differentiable on $(a,b)$, and $g'(x)=f(x)$.
 
-### * Part 2:
+### 2. Part 2:
 
 If $f$ is continuous on $[a,b]$, then
 
