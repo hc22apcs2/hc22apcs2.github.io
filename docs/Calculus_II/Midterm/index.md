@@ -39,7 +39,19 @@ $$
 
 ## III. Polar curves
 
-### 1. Sketch the curve:
+### 1. Relevant infomation with Cartesian coordinate:
+
+$x=r\cos\theta$
+
+$y=r\sin\theta$
+
+$r^2=x^2+y^2$
+
+$tan \ \theta = \dfrac{y}{x}$
+
+$\displaystyle \frac{dy}{dx}=\frac{dy/d\theta}{dx/d\theta}=\cfrac{\cfrac{dr}{d\theta}\sin\theta+r\cos\theta}{\cfrac{dr}{d\theta}\cos\theta-r\sin\theta}$
+
+### 2. Sketch the curve:
 
 * Lines
   * $\theta=\alpha \ \ \ \ \$ The line from $(0,0)$ set at the angle $\alpha$
@@ -53,7 +65,7 @@ $$
 
 If we are given other form, we should investigate the function $r=f(\theta)$, which means calculating derivative, critical point, ..., in order to have enough infomation for drawing the curve accurately.
 
-### 2. Area:
+### 3. Area:
 
 The formula for the area $A$ of the polar region of the curve $r=f(\theta)$, $a \leq \theta \leq b$, is:
 
