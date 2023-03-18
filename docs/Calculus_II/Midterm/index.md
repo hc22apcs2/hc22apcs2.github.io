@@ -11,6 +11,14 @@ nav_order: 7
 
 ## II. Find the volume of a solid
 
+### 1. Definition of volume:
+
+Let $S$ be a solid that lies between $x=a$ and $x=b$. If the cross-sectional area of $S$ in the plane $P_x$, through $x$ and perpendcular to the $x$-axis, is $A(x)$, where $A$ is a continous function, then the **volume** of $S$ is:
+
+$$
+V=\displaystyle\lim_{n \to \infty} \sum_{i=1}^n A(x_i^*) \Delta x = \int_a^b A(x) dx
+$$
+
 ## III. Polar curves
 
 ### 1. Sketch the curve:
