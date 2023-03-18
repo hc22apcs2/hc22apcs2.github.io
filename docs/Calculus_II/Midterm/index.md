@@ -9,6 +9,8 @@ nav_order: 7
 
 ## I. Sketch the solid
 
+[Click Me](https://www.youtube.com/watch?v=ydyXf01WNYA)
+
 ## II. Find the volume of a solid
 
 ### 1. Definition of volume:
