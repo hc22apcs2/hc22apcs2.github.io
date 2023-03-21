@@ -8,8 +8,8 @@ permalink: /
 
 # Thông báo
 
-- Review Midterm Calculus II: [docs/Calculus_II/Midterm](docs/Calculus_II/Midterm)
-- Review Midterm CS II: [docs/CS162/b6b](docs/CS162/b6b)
+- ~~Review Midterm Calculus II: [docs/Calculus_II/Midterm](docs/Calculus_II/Midterm)~~
+- ~~Review Midterm CS II: [docs/CS162/b6b](docs/CS162/b6b)~~
 - ~~Review Midterm Physics II: [docs/General_Physics_II/Midterm_Revision](docs/General_Physics_II/Midterm_Revision)~~
 
 ---
