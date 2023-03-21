@@ -100,7 +100,7 @@ Node* MyStack::pop() {
 {% endcapture %}
 {% include fix_linenos.html code=code %}
 
-Full code (runnable): [here](https://ideone.com/PwPmtQ)
+Full code (able to run): [here](https://ideone.com/PwPmtQ)
 
 ### Queue (FIFO)
 
@@ -110,7 +110,7 @@ Full code (runnable): [here](https://ideone.com/PwPmtQ)
 - enqueue
 - dequeue
 
-If implementation based on `SLL`:
+If the implementation is based on `SLL`:
 - `dequeue` at the ***beginning*** of `SLL` 
 - `enqueue` at the ***end*** of `SLL`.
 
@@ -149,7 +149,7 @@ Node* MyQueue::dequeue() {
 {% endcapture %}
 {% include fix_linenos.html code=code %}
 
-Full code (runable): [here](https://ideone.com/EEtT3g)
+Full code (able to run): [here](https://ideone.com/EEtT3g)
 
 ### Comparisions
 
@@ -158,12 +158,12 @@ Full code (runable): [here](https://ideone.com/EEtT3g)
 |   Linked List    |            Array            |
 |:----------------:|:---------------------------:|
 | Access in $O(n)$ | Can random access in $O(1)$ |
-| Flexible in size |      Immutable in size      |
+|   Flexible size  |          Fixed size         |
 
 ## Notes
-- Validity of pointer: pointing to `null` or not to `null`.
+- Validity of pointer: pointing to `null` or not.
 - Memory leaking: allocate $\Rightarrow$ deallocate.
-- Double Linked List has to be done in `DLL` way, don't try to use `SLL` approach.
+- Doubly Linked List: algorithms have to be done the `DLL` way, don't try to use the `SLL` approaches.
 
 ## Q&A
 
@@ -183,28 +183,37 @@ Why not `delete[n] pArr`? How does the system know the number of elements to del
 #### A1
 {: .no_toc}
 
-The system stored the size somewhere. Where?
+The system stores the size somewhere. Where?
 
-Some programming languages, where arrays are "1-indexed", they try to store the size in the 0-th element. But `C++` arrays are "0-indexed", where does the system store the size? Go home and find out!
+For some programming languages where arrays are "1-indexed", they try to store the size in the 0-th element. But `C++` arrays are "0-indexed", where does the system store the size? Go home and find out!
+
+#### Editor's note:
+{: .no_toc}
+
+`delete[n] pArr` was actually what people used to do. However, the system now stores its size, so you don't have to (or rather, you can't) explicitly tell the system how many elements to delete (it would be dangerous if you delete the wrong number of elements). You can still do `delete[n] pArr` nowadays, but `n` will be ignored by the compiler.
+
+Now, where is the size of the array stored? **Short answer: Magic** ([yes, the C++ Core Guidelines really said that](https://isocpp.org/wiki/faq/freestore-mgmt#num-elems-in-new-array)).
+
+The longer answer is that there are two popular methods, which you can read by clicking on the link to the C++ Core Guidelines above if you are interested.
 
 ---
 
 #### Q2
 {: .no_toc}
 
-Can we jump in  middle of an array and deallocate some of the elements but still use the un-deallocated elements?
+Can we jump in the middle of an array and deallocate some of the elements but still use the un-deallocated elements?
 
 #### A2
 {: .no_toc}
 
-Unexpected result, we don't know what will happen when we play around with the deallocation of the array. Try to allocate the whole array and deallocate the whole array. You can try deallocating at your own risk.
+Unexpected result, we don't know what will happen when we play around with the deallocation of the array. If you allocate the whole array, deallocate the whole array. You can still try deallocating in the middle of the array *at your own risk*.
 
 ---
 
 #### Q3
 {: .no_toc}
 
-What happen when you allocate 0 slot and delete 0 slot of an array? Is it okay?
+What happens when you allocate 0 slots and delete 0 slots of an array? Is it okay?
 
 ```cpp
 int* a = new int[0];
@@ -214,14 +223,23 @@ delete[] a;
 #### A3
 {: .no_toc}
 
-Allocation is okay, and deallocation is... okay too. If you forgot to deallocate the 0-sized array,... no memory is leaking too, but for the standard implementation you should write out the deallocation, it's a good practice.
+The allocation is okay, and the deallocation is... okay too. If you forget to deallocate the 0-sized array,... no memory is leaking too, but for the standard implementation you should write out the deallocation, it's a good practice.
+
+#### Editor's note
+{: .no_toc}
+
+**Forgetting to deallocate a 0-sized array can also lead to memory leak**. It's more than just a good practice to deallocate even a 0-sized array.
+
+When you allocate an array of `n` elements, *some* compilers will actually allocate `n + 1` elements: the extra element is for the size of the array. If you forget to delete the array, then this extra element will stay there the whole time.
+
+Note that this behavior only applies for *some* compilers. If you return back to the Editor's note on Q1, this is one of the *magic* methods to store the size of a dynamically allocated array.
 
 ## Revision problems
 
 ### Given a singly linked list, you are asked to build the following functions:
 {: .no_toc}
 
-#### Print out the middle node. If size of `SLL` is odd, print the middle one. If size of `SLL` is even, print the left one.
+#### Print out the middle node. If the size of the `SLL` is odd, print the middle one. If the size of the `SLL` is even, print the left one.
 {: .no_toc}
 
 {% capture code %}
@@ -279,13 +297,13 @@ bool isPalindrome(Node* pHead) {
 {% endcapture %}
 {% include fix_linenos.html code=code %}
 
-There're few more ways to implement the code:
+There are a few more ways to implement the solution:
 
 
 
-| Idea                                                                                                                                                                | Time complexity | Memory complexity | Notes                                                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| The above code                                                                                                                                                      | $O(n)$          | $O(n)$            | The allocation of consecutive blocks of memory (array) where $n$ is big is sometime hard to achieve                                                 |
-| Iterate through the list and find the sysmestric element to check whether it's identical or not                                                                     | $O(n^2)$        | $O(1)$            | Although the time complexity is way more worse than the previous way, the memory complexity is just $O(1)$ which is very easy to allocate.          |
-| Copy the `SLL` to another `SLL` and reverse it, after that check the copied list with the original one to see if it's identical or not                              | $O(n)$          | $O(n)$            | Although the memory complexity is the same with the first idea, the allocation is not need to be consecutive which is way more easy to be achieved. |
-| Detach the second half of the list into a new `SLL`, reversed the detached list and check it with the first half, after checking, re-attach it into the first half. | $O(n)$          | $O(1)$            | Best complexity but more implementation, it is not recommended to code this idea on exam paper.                                                     |
+| Idea                                                                                                                                                                   | Time complexity | Memory complexity | Notes                                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The above code                                                                                                                                                         | $O(n)$          | $O(n)$            | The allocation of consecutive blocks of memory (array) where $n$ is big is sometimes hard to achieve                                                |
+| Iterate through the list and find the symmetric element to check whether they are identical or not                                                                     | $O(n^2)$        | $O(1)$            | Although the time complexity is way worse than the previous way, the memory complexity is just $O(1)$ which is very easy to allocate.               |
+| Copy the `SLL` to another `SLL` and reverse it, then check the copied list with the original one to see if it's identical or not                                       | $O(n)$          | $O(n)$            | Although the memory complexity is the same as the first idea, the allocation does not need to be consecutive which is way easier to achieve.        |
+| Detach the second half of the list into a new `SLL`, reverse the detached list and check it with the first half, after checking, re-attach it into the first half.     | $O(n)$          | $O(1)$            | Best complexity but more complex implementation, not recommended for paper-based exams.                                                             |
