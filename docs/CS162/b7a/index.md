@@ -18,7 +18,7 @@ void A(int a, int b) {
 }
 ```
 
-![](https://i.imgur.com/E9KSOdx.gif)
+![](E9KSOdx.gif)
 
 - The action of getting back to the previous function call in recursion is called **backtracking**. 
 - Using recursion can make a repetition but sometimes loops are better than recursion.
@@ -27,7 +27,8 @@ void A(int a, int b) {
 
 Look at the code below, can you tell what it does?
 
-```cpp=
+{% capture code %}
+{% highlight cpp linenos %}
 void strange() {
     int t;
     cin >> t;
@@ -43,7 +44,9 @@ int main {
     cout << endl;
     return 0;
 }
-```
+{% endhighlight %}
+{% endcapture %}
+{% include fix_linenos.html code=code %}
 
 **Answer:** It will input a list of numbers (until 0) then print that list in *reversed* order.
 
@@ -55,7 +58,8 @@ int main {
 
 ### Student's code
 
-```cpp=
+{% capture code %}
+{% highlight cpp linenos %}
 #include <iostream>
 using namespace std;
 
@@ -93,4 +97,6 @@ void Permutation(int i, int n, int* &arr, bool* &avail) {
         }
     }
 }
-```
+{% endhighlight %}
+{% endcapture %}
+{% include fix_linenos.html code=code %}
