@@ -2,7 +2,7 @@
 layout: post
 title: Physics II - Midterm Revision
 parent: General Physics II
-nav_order: 10
+nav_order: 12
 ---
 *Proofread by Huỳnh Hà Phương Linh*
 
