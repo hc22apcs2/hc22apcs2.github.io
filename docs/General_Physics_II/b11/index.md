@@ -5,8 +5,6 @@ parent: General Physics II
 nav_order: 12
 ---
 
-{% include toc.md %}
-
 ![](ljp3j8i.png)
 
 ![](EPYF3kn.png)
