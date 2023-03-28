@@ -11,7 +11,7 @@ nav_order: 8
 
 Suppose that $f$ and $g$ are continuous functions with $0 \leq g(x) \leq f(x)$ for $a \leq x$.
 
-(a) If $\int_a^\infty f(x) \ dx$ is covergent, then $\int_a^\infty g(x) \ dx$ is covergent.
+(a) If $\int_a^\infty f(x) \ dx$ is convergent, then $\int_a^\infty g(x) \ dx$ is convergent.
 
 (b) If $\int_a^\infty g(x) \ dx$ is divergent, then $\int_a^\infty f(x) \ dx$ s divergent.
 
@@ -24,7 +24,7 @@ _**Be careful:**_ the reverse is not necessarily true: If $\int_a^\infty g(x) \ 
 We have:
 
 $$
-0 \leq \frac{1}{x} \leq \frac{2+e^{-x}}{x}, \forall x \geq 1
+0 < \frac{1}{x} < \frac{2+e^{-x}}{x}, \forall x \geq 1
 $$
 
 and
@@ -44,7 +44,7 @@ By the Comparison Test, $\displaystyle \int_1^\infty \frac{2+e^{-x}}{x} \ dx$ is
 Observe that $-\dfrac{\pi}{2} \leq \arctan x \leq \dfrac{\pi}{2}$, so
 
 $$
-0 \leq \frac{\arctan x}{2+e^x} \leq \frac{2}{2+e^x} \leq \frac{2}{e^x}, \forall x \geq 0
+0 \leq \frac{\arctan x}{2+e^x} < \frac{2}{2+e^x} < \frac{2}{e^x}, \forall x \geq 0
 $$
 
 $$
