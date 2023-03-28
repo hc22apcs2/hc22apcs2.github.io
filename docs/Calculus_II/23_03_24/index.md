@@ -24,7 +24,7 @@ _**Be careful:**_ the reverse is not necessarily true: If $\int_a^\infty g(x) \ 
 We have:
 
 $$
-0 \leq \frac{1}{x} \leq \frac{2+e^{-x}}{x}, \forall x > 1
+0 \leq \frac{1}{x} \leq \frac{2+e^{-x}}{x}, \forall x \geq 1
 $$
 
 and
@@ -38,3 +38,20 @@ $$
 $$
 
 By the Comparison Test, $\displaystyle \int_1^\infty \frac{2+e^{-x}}{x} \ dx$ is divergent.
+
+* Determine $\displaystyle \int_0^\infty \frac{\arctan x}{2+e^x} \ dx$ is convergent or divergent.
+  
+Observe that $-\dfrac{\pi}{2} \leq \arctan x \leq \dfrac{\pi}{2}$, so
+
+$$
+0 \leq \frac{\arctan x}{2+e^x} \leq \frac{2}{2+e^x} \leq \frac{2}{e^x}, \forall x \geq 0
+$$
+
+$$
+\int_0^\infty \frac{2}{e^x} \ dx
+=2\lim_{t \to \infty} \int_0^t e^{-x} \ dx
+=2\lim_{t \to \infty} \left[-e^{-x}\right]_0^t
+=2\lim_{t \to \infty} (1-e^{-t}) = 2
+$$
+
+By the Comparison Test, $\displaystyle \int_0^\infty \frac{\arctan x}{2+e^x} \ dx$ is convergent
