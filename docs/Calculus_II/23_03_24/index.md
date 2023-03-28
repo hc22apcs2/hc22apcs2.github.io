@@ -16,3 +16,25 @@ Suppose that $f$ and $g$ are continuous functions with $0 \leq g(x) \leq f(x)$ f
 (b) If $\int_a^\infty g(x) \ dx$ is divergent, then $\int_a^\infty f(x) \ dx$ s divergent.
 
 _**Be careful:**_ the reverse is not necessarily true: If $\int_a^\infty g(x) \ dx$ is convergent, $\int_a^\infty f(x) \ dx$ may or may not be convergent, and if $\int_a^\infty f(x) \ dx$ is divergent, $\int_a^\infty g(x) \ dx$ may or may not be divergent.
+
+## II. Exercises
+
+* Determine $\displaystyle \int_1^\infty \frac{2+e^{-x}}{x} \ dx$ is convergent or divergent.
+  
+We have:
+
+$$
+0 \leq \frac{1}{x} \leq \frac{2+e^{-x}}{x}, \forall x > 1
+$$
+
+and
+
+$$
+\int_1^\infty \frac{1}{x} \ dx
+=\lim_{t \to \infty} \int_1^t \frac{1}{x} \ dx
+=\lim_{t \to \infty} \left[\ln\vert x \vert\right]_1^t
+=\lim_{t \to \infty} \ln t
+=\infty
+$$
+
+By the Comparison Test, $\displaystyle \int_1^\infty \frac{2+e^{-x}}{x} \ dx$ is divergent.
