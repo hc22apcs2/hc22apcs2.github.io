@@ -15,11 +15,11 @@ Suppose that $f$ and $g$ are continuous functions with $0 \leq g(x) \leq f(x)$ f
 
 (b) If $\int_a^\infty g(x) \ dx$ is divergent, then $\int_a^\infty f(x) \ dx$ s divergent.
 
-_**Be careful:**_ the reverse is not necessarily true: If $\int_a^\infty g(x) \ dx$ is convergent, $\int_a^\infty f(x) \ dx$ may or may not be convergent, and if $\int_a^\infty f(x) \ dx$ is divergent, $\int_a^\infty g(x) \ dx$ may or may not be divergent.
+_**Be careful:**_ the opposite is not necessarily true: If $\int_a^\infty g(x) \ dx$ is convergent, $\int_a^\infty f(x) \ dx$ may or may not be convergent, and if $\int_a^\infty f(x) \ dx$ is divergent, $\int_a^\infty g(x) \ dx$ may or may not be divergent.
 
 ## II. Exercises
 
-* Determine $\displaystyle \int_1^\infty \frac{2+e^{-x}}{x} \ dx$ is convergent or divergent.
+* Determine if $\displaystyle \int_1^\infty \frac{2+e^{-x}}{x} \ dx$ is convergent or divergent.
   
 We have:
 
@@ -39,7 +39,7 @@ $$
 
 By the Comparison Test, $\displaystyle \int_1^\infty \frac{2+e^{-x}}{x} \ dx$ is divergent.
 
-* Determine $\displaystyle \int_0^\infty \frac{\arctan x}{2+e^x} \ dx$ is convergent or divergent.
+* Determine if $\displaystyle \int_0^\infty \frac{\arctan x}{2+e^x} \ dx$ is convergent or divergent.
   
 Observe that $-\dfrac{\pi}{2} \leq \arctan x \leq \dfrac{\pi}{2}$, so
 
@@ -56,7 +56,7 @@ $$
 
 By the Comparison Test, $\displaystyle \int_0^\infty \frac{\arctan x}{2+e^x} \ dx$ is convergent
 
-* Find the values of $p$ for which the integral converges or diverges and evaluate the integral for those values of $p$ if it is converges
+* Find the values of $p$ for which the integral converges or diverges and evaluate the integral for those values of $p$ if it is convergent
 
 $$
 I = \int_0^1 x^p \ln x \ dx
@@ -87,16 +87,9 @@ I &= \lim_{t \to 0^+} \int_0^1 x^p \ln x \ dx \\
 
 $\displaystyle \lim_{t \to 0^+} \frac{1-t^{p+1}}{p+1}=\frac{1}{p+1}$
 
-$\displaystyle
-\lim_{t \to 0^+} t^{p+1}\ln t
-=\lim_{t \to 0^+} \dfrac{\ln t}{t^{-p-1}}
-\stackrel{\text{L'H}}{=}\lim_{t \to 0^+} \frac{1}{(-p-1)t^{-p-1}}
-=-\lim_{t \to 0^+} \frac{t^{p+1}}{p+1}=0
-$
+$\displaystyle\lim_{t \to 0^+} t^{p+1}\ln t=\lim_{t \to 0^+} \dfrac{\ln t}{t^{-p-1}}\stackrel{\text{L'H}}{=}\lim_{t \to 0^+} \frac{1}{(-p-1)t^{-p-1}}=-\lim_{t \to 0^+} \frac{t^{p+1}}{p+1}=0$
 
-$\displaystyle
-\therefore I = \frac{-1}{(p+1)^2}
-$
+$\displaystyle\therefore I = \frac{-1}{(p+1)^2}$
 
 * **Subcase 2:** $p<-1$
 
@@ -108,13 +101,9 @@ I&=\frac{-1}{p+1} \left[\frac{1}{p+1} + \lim_{t \to 0^+} \left(t^{p+1} \ln t - \
 
 Observe that
 
-$$
-\lim_{t \to 0^+} t^{p+1} = \infty
-$$
+$\displaystyle\lim_{t \to 0^+} t^{p+1} = \infty$
 
-$$
-\lim_{t \to 0^+} \left(\ln t - \frac{1}{p+1}\right)= -\infty
-$$
+$\displaystyle \lim_{t \to 0^+} \left(\ln t - \frac{1}{p+1}\right)= -\infty$
 
 So
 
