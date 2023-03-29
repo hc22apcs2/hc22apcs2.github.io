@@ -8,7 +8,7 @@ parent: Introduction to Computer Science II
 
 ## Lời mở đầu
 
-Cũng là lời cảnh báo: Bài viết này là bài viết đền bù vì mình đã trễ học tiết 7B. Bài viết này là do mình bịa ra (không đi học thì ko biết thầy giảng gì) nên sẽ được viết bằng tiếng Việt cho dễ hiểu. Và bài viết này được tẩm đá.
+Cũng là lời cảnh báo: Bài viết này là bài viết đền bù vì mình đã trễ học tiết 7B. Bài viết này là do mình bịa ra (không đi học nên không biết thầy giảng gì) nên sẽ được viết bằng tiếng Việt cho dễ hiểu. Và bài viết này được tẩm đá.
 
 Vì nhận thấy sự đau khổ của mọi người khi học đệ quy nên mình muốn chia sẻ mọi người một chút về việc làm sao để hiểu được đệ quy.
 
@@ -82,7 +82,7 @@ $$\displaystyle \binom{n}{k} =
 \begin{cases}
 0 &&, k < 0 \text{ or } n < k\\
 1 &&, k = 0 \text{ or } n = k\\
-\binom{n-1}{k} + \binom{n-1}{k} &&, 0 < k < n
+\binom{n-1}{k} + \binom{n-1}{k-1} &&, 0 < k < n
 \end{cases}$$
 
 Khi viết nó theo một hàm đệ quy trong C++, ta có thể viết như sau:
@@ -264,7 +264,7 @@ Tuy nhiên làm như vậy sẽ rất tốn bộ nhớ, vì thế người ta th
 
 ### Áp dụng?
 
-Tại tiết học CS162-7B thì mình đã làm một bài toán "cái túi": Cho một cái túi đựng được tối đa $W$ trọng lượng, $n$ món vật, món thứ $i$ có trọng lượng là $w_i$ và giá trị là $v_i$. Tìm cách để chọn các món đồ sao cho tổng trọng lượng ko quá tải cái túi và được tổng giá trị là lớn nhất.
+Tại tiết học CS162-7B thì mình đã làm một bài toán "cái túi": Cho một cái túi đựng được tối đa $W$ trọng lượng, $n$ món vật, món thứ $i$ có trọng lượng là $w_i$ và giá trị là $v_i$. Tìm cách để chọn các món đồ sao cho tổng trọng lượng không quá tải cái túi và được tổng giá trị là lớn nhất.
 
 Bài toán này có thể giải quyết bằng việc trừu tượng hóa việc chọn các món đồ thành một dãy nhị phân độ dài $n$, nếu vị trí đó ứng với số $1$ thì mình sẽ chọn món đồ đó, và ngược lại.
 
@@ -356,7 +356,7 @@ Như mọi người thấy thì vấn đề chọn những món đồ sao cho đ
 
 Không, cách làm này sai bét! Hay thử cách làm khác? Ưu tiên món đồ có giá trị $\displaystyle\frac{v_i}{w_i}$ lớn nhất thì sao? Thật ra cách này cũng sẽ dính trường hợp sai được luôn.
 
-Mình nghĩ hết nhiều các thì thấy không thấy cách nào ổn cả. Tại sao lại vậy?
+Mình nghĩ hết những cách có thể thì thấy không thấy cách nào ổn cả. Tại sao lại vậy?
 
 Con người là một loài sinh vật thông minh và... tài lanh, ta luôn tự "tối ưu" sớm những việc ta thấy đơn giản để sống thảnh thơi. Cách làm đó có thể sẽ đúng cho đa số các trường hợp nhưng sẽ còn tồn đọng những trường hợp mà cách làm đó không giải quyết được triệt để. Những cách làm này được gọi bằng thuật ngữ "tham lam" (greedy).
 
