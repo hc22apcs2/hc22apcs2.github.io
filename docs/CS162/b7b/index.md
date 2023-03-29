@@ -30,7 +30,7 @@ Tuy là khó nuốt nhưng mình thấy đa số những người học lập tr
 
 ## Giai thừa!
 
-Trong môn toán thân thương chắc hẳn mọi người đã quen với định nghĩa của $n!$, nó định nghĩa sau:
+Trong môn toán thân thương chắc hẳn mọi người đã quen với định nghĩa của $n!$, nó được định nghĩa như sau:
 
 $$n! = 1\times2\times3\times\cdots\times n$$
 
