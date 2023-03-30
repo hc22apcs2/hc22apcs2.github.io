@@ -391,7 +391,7 @@ void genPermutation(int i, int* filled) {
         if(isFilled(filled, x)) continue;
         
         filled[i] = x;
-        genPermutation(int i, int* filled);
+        genPermutation(i+1, filled);
         filled[i] = -1;
     }
 }
@@ -441,7 +441,7 @@ void genPermutation(int i, int* filled, bool* isFilled) {
         if(isFilled[x]) continue;
         
         filled[i] = x;
-        genPermutation(int i, int* filled);
+        genPermutation(i+1, filled, isFilled);
         filled[i] = -1;
     }
 }
