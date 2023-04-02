@@ -112,6 +112,6 @@ $$
 \{a_n\} \ \ \ \ \text{or} \ \ \ \ \{a_n\}_{n=1}^{\infty}
 $$
 
-$\{a_n\}$ is bounded below iff $\exists \ m \in \mathbb{R}$ s.t $m<a_n$, $\forall n$
+$\\{a_n\\}$ is bounded below iff $\exists \ m \in \mathbb{R}$ s.t $m<a_n$, $\forall n$
 
-$\{a_n\}$ is bounded above iff $\exists \ M \in \mathbb{R}$ s.t $a_n<M$, $\forall n$
+$\\{a_n\\}$ is bounded above iff $\exists \ M \in \mathbb{R}$ s.t $a_n<M$, $\forall n$
