@@ -6,6 +6,24 @@ nav_order: 16
 ---
 
 {% include toc.md %}
+## Review Ampere's Law
+* **Infinite current sheet:**
+
+$$
+B = \frac{\mu_0 J}2
+$$
+
+* **Two parallel infinite current sheets:**
+
+$$
+B = \mu_0J
+$$
+
+* **Solenoid:**
+
+$$
+B = \mu_0 n J
+$$
 
 ## Magnetic Flux
 ![](597HGeA.png)
