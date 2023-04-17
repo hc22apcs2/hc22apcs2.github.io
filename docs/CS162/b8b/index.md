@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CS162 - 8A
+title: CS162 - 8B
 parent: Introduction to Computer Science II
 --- 
 
