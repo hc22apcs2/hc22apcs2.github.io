@@ -64,6 +64,7 @@ void inputLL(Node*& pHead) {
     int x;
     cout << "Please input the number: ";
     cin>>x;
+    Node* cur = nullptr;
     while(x != 0)
     {
         if(pHead == nullptr) {
@@ -75,7 +76,6 @@ void inputLL(Node*& pHead) {
             cur = cur->pNext;
         }
         
-        int x;
         cout << "Please input the number: ";
         cin>>x;
         cur->data = x;
