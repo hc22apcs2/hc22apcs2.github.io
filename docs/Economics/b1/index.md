@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kinh tế chính trị (1)
+title: Kinh tế chính trị - 1
 parent: M-L Political Economics
 ---
 
