@@ -44,9 +44,9 @@ int main() {
     cout << "What is the size of the board: ";
     cin >> n;
     
-    int** board = new int*[n];
+    int** board = new int*[n]();
     for(int i=0; i<n; i++)
-        board[i] = new int[n];
+        board[i] = new int[n]();
     
     int x, y;
     cout << "Where is the starting position of the Knight (x, y): ";
@@ -120,7 +120,7 @@ void try2Move(int count, int x, int y, int** board, int n) {
 }
 {% endhighlight %}{% endcapture %}{% include fix_linenos.html code=code %}
 
-Full code tại [đây](https://ideone.com/IBLAi9).
+Full code tại [đây](https://ideone.com/6Ye7uv).
 
 ### Thảo luận
 
@@ -222,7 +222,7 @@ void try2Move(int count, int x, int y, int** board, int n) {
 }
 {% endhighlight %}{% endcapture %}{% include fix_linenos.html code=code %}
 
-Full code tại [đây](https://ideone.com/9MqsfO).
+Full code tại [đây](https://ideone.com/aI0UDf).
 
 ### So sánh
 
