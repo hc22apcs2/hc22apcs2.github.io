@@ -63,7 +63,7 @@ parent: Introduction to Computer Science II
 ## 3.10 - Permutation of a string
 
 * **Statement:** Write a program to print all permutations of a given string.
-
+* **Solution:** [https://ideone.com/VQusa4](https://ideone.com/VQusa4)
 ## 3.11 - Check permutation - LeetCode
 
 * **Statement:** [https://leetcode.com/problems/permutation-in-string/](https://leetcode.com/problems/permutation-in-string/)
