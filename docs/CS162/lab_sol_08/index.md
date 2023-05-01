@@ -9,7 +9,7 @@ parent: Introduction to Computer Science II
 # Lab 08 - Advanced Recursion
 {: .no_toc}
 
-* **Source:** [https://drive.google.com/file/d/13eUb6a8oEbqxTtzxBz_cyAOJ3fPP1Cns/view](https://drive.google.com/file/d/13eUb6a8oEbqxTtzxBz_cyAOJ3fPP1Cns/view)
+* **Source:** [PDF file](Lab08_Advanced_Recursion.pdf)
 
 ## 3.1 - N Queens
 
