@@ -59,6 +59,7 @@ parent: Introduction to Computer Science II
 
 * **Statement:** [https://leetcode.com/problems/next-permutation/](https://leetcode.com/problems/next-permutation/)
 * **Solution:** [here](https://leetcode.com/problems/next-permutation/solutions/3467635/solution/)
+* **Solution (Naot):** [here](https://leetcode.com/problems/next-permutation/solutions/3474944/next-permutation/)
 
 ## 3.10 - Permutation of a string
 
